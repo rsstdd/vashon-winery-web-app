@@ -1,0 +1,15 @@
+{
+  "name": "vashon-winery-web-app",
+  "version": "1.0.0",
+  "description": "Web Application for Vashon Winery",
+  "main": "index.js",
+  "repository": "git@github.com:rsstdd/vashon-winery-web-app.git",
+  "author": "Ross rssmtdd@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "semantic-ui": ''
+  },
+  "devDependencies": {
+    "semantic-release-cli": "^5.1.2"
+  }
+}
