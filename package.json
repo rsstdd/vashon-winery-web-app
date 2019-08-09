@@ -7,10 +7,35 @@
   "author": "Ross rssmtdd@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.17",
+    "codecov": "^3.5.0",
+    "semantic-release": "^15.13.19",
     "semantic-release-cli": "^5.1.2",
-    "semantic-release": "^15.13.19"
+    "source-map-loader": "^0.2.4",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-immutable": "^6.0.1",
+    "typescript": "^3.5.3"
   },
   "scripts": {
+    "dev": "next",
+    "report-coverage": "codecov",
     "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@types/next": "^8.0.6",
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-redux": "^7.1.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "babel-loader": "^8.0.6",
+    "next": "^9.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "ts-loader": "^6.0.4"
   }
 }
