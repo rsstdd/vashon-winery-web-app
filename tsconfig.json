@@ -1,4 +1,5 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
@@ -9,7 +10,7 @@
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react",
     "lib": [
       "dom.iterable",
       "dom",
@@ -27,14 +28,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "outDir": "./dist/",
+    "preserveConstEnums": true,
     "removeComments": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
     "strictNullChecks": true,
-    "target": "esnext",
-    "resolveJsonModule": true,
-    "isolatedModules": true
+    "target": "esnext"
   },
   "exclude": [
     "node_modules",
