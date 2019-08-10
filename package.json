@@ -1,15 +1,29 @@
 {
   "name": "vashon-winery-web-app",
   "version": "0.0.0-development",
+  "license": "UNLICENSED",
   "description": "Web Application for Vashon Winery",
   "main": "index.js",
   "repository": "git@github.com:rsstdd/vashon-winery-web-app.git",
   "author": "Ross rssmtdd@gmail.com",
   "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "lint": "./node_modules/.bin/eslint src",
+    "lint-diff": "./node_modules/.bin/eslint $(git diff master --diff-filter=ACM --name-only)",
+    "report-coverage": "codecov",
+    "semantic-release": "semantic-release"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint-diff"
+    }
+  },
   "devDependencies": {
     "@babel/preset-typescript": "^7.3.3",
     "@types/jest": "^24.0.17",
     "codecov": "^3.5.0",
+    "eslint": "^6.1.0",
     "husky": "^3.0.3",
     "semantic-release": "^15.13.19",
     "semantic-release-cli": "^5.1.2",
@@ -19,16 +33,6 @@
     "tslint-config-airbnb": "^5.11.1",
     "tslint-immutable": "^6.0.1",
     "typescript": "^3.5.3"
-  },
-  "scripts": {
-    "dev": "next",
-    "report-coverage": "codecov",
-    "semantic-release": "semantic-release"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn lint-diff"
-    }
   },
   "dependencies": {
     "@babel/core": "^7.5.5",
