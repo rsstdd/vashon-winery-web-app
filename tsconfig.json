@@ -10,7 +10,7 @@
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
     "isolatedModules": true,
-    "jsx": "react",
+    "jsx": "preserve",
     "lib": [
       "dom.iterable",
       "dom",
@@ -30,7 +30,6 @@
     "outDir": "./dist/",
     "preserveConstEnums": true,
     "removeComments": true,
-    "removeComments": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true,
@@ -47,6 +46,12 @@
     "jest",
     "src/setupTests.ts"
   ],
-  "types": ["typePatches"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "types": [
+    "typePatches"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }

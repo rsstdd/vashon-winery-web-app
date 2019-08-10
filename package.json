@@ -21,6 +21,10 @@
   "devDependencies": {
     "@babel/preset-typescript": "^7.3.3",
     "@types/jest": "^24.0.17",
+    "@types/next": "^8.0.6",
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-redux": "^7.1.1",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
     "codecov": "^3.5.0",
@@ -34,28 +38,21 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "husky": "^3.0.3",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-pxtorem": "^4.0.1",
     "prettier": "^1.18.2",
     "semantic-release": "^15.13.19",
     "semantic-release-cli": "^5.1.2",
     "source-map-loader": "^0.2.4",
     "ts-jest": "^24.0.2",
-    "tslint": "^5.18.0",
-    "tslint-config-airbnb": "^5.11.1",
-    "tslint-immutable": "^6.0.1",
     "typescript": "^3.5.3"
   },
   "dependencies": {
-    "@babel/core": "^7.5.5",
-    "@types/next": "^8.0.6",
-    "@types/react": "^16.9.1",
-    "@types/react-dom": "^16.8.5",
-    "@types/react-redux": "^7.1.1",
-    "@zeit/next-typescript": "^1.1.1",
-    "babel-loader": "^8.0.6",
+    "@zeit/next-sass": "^1.0.1",
     "next": "^9.0.3",
+    "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-redux": "^7.1.0",
-    "ts-loader": "^6.0.4"
+    "react-redux": "^7.1.0"
   }
 }
