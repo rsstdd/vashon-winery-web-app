@@ -27,7 +27,7 @@
     "@types/react-redux": "^7.1.1",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
-    "codecov": "^3.5.0",
+    "codecov": "^3.6.5",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.0",
     "eslint-config-prettier": "^6.0.0",
