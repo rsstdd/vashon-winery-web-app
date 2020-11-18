@@ -41,7 +41,7 @@
     "postcss-cssnext": "^3.1.0",
     "postcss-pxtorem": "^4.0.1",
     "prettier": "^1.18.2",
-    "semantic-release": "^15.13.19",
+    "semantic-release": "^17.2.3",
     "semantic-release-cli": "^5.1.2",
     "source-map-loader": "^0.2.4",
     "ts-jest": "^24.0.2",
